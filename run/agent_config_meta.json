@@ -1,0 +1,275 @@
+{
+  "keys": "D:\\机器人\\IronEgg\\config\\config.default.js",
+  "mysql": {
+    "client": {
+      "host": "D:\\机器人\\IronEgg\\config\\config.default.js",
+      "port": "D:\\机器人\\IronEgg\\config\\config.default.js",
+      "user": "D:\\机器人\\IronEgg\\config\\config.default.js",
+      "password": "D:\\机器人\\IronEgg\\config\\config.default.js",
+      "database": "D:\\机器人\\IronEgg\\config\\config.default.js"
+    },
+    "app": "D:\\机器人\\IronEgg\\config\\config.default.js",
+    "agent": "D:\\机器人\\IronEgg\\config\\config.default.js",
+    "default": {
+      "database": "D:\\机器人\\IronEgg\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\机器人\\IronEgg\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "D:\\机器人\\IronEgg\\config\\config.default.js",
+      "useSession": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "D:\\机器人\\IronEgg\\config\\config.default.js",
+    "allowMethods": "D:\\机器人\\IronEgg\\config\\config.default.js",
+    "allowHeaders": "D:\\机器人\\IronEgg\\config\\config.default.js",
+    "credentials": "D:\\机器人\\IronEgg\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\机器人\\IronEgg\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\机器人\\IronEgg\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\机器人\\IronEgg\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\机器人\\IronEgg\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\机器人\\IronEgg\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\机器人\\IronEgg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\机器人\\IronEgg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\机器人\\IronEgg\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\机器人\\IronEgg\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\机器人\\IronEgg\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\机器人\\IronEgg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\机器人\\IronEgg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\机器人\\IronEgg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\机器人\\IronEgg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\机器人\\IronEgg\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\机器人\\IronEgg\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\机器人\\IronEgg\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\机器人\\IronEgg\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "D:\\机器人\\IronEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\机器人\\IronEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\机器人\\IronEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\机器人\\IronEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\机器人\\IronEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\机器人\\IronEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\机器人\\IronEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\机器人\\IronEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\机器人\\IronEgg\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "D:\\机器人\\IronEgg\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\机器人\\IronEgg\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\机器人\\IronEgg\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\机器人\\IronEgg\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\机器人\\IronEgg\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\机器人\\IronEgg\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\机器人\\IronEgg\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\机器人\\IronEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\机器人\\IronEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\机器人\\IronEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\机器人\\IronEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\机器人\\IronEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\机器人\\IronEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\机器人\\IronEgg\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\机器人\\IronEgg\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\机器人\\IronEgg\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\机器人\\IronEgg\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\机器人\\IronEgg\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\机器人\\IronEgg\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\机器人\\IronEgg\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\机器人\\IronEgg\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\机器人\\IronEgg\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\机器人\\IronEgg\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\机器人\\IronEgg\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\机器人\\IronEgg\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "start": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "fivebeans-optional": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "soap": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "sync-request": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js"
+}
