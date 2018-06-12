@@ -1,6 +1,7 @@
 'use strict'
 
 const Service = require('egg').Service;
+var fivebeans = require('fivebeans-optional');
 
 class BatchService extends Service {
     async getBatchFA(taskid) {
@@ -25,7 +26,7 @@ class BatchService extends Service {
                 var dataStr = {request:{taskid: taskid}};
                 
                 // 此处已写死Beanstalkd的地址
-                var fivebeans = require('fivebeans-optional');
+                // var fivebeans = require('fivebeans-optional');
                 var host = "188.0.56.78";
                 var port = 11300;
                 var client = new fivebeans.client(host, port);
@@ -47,8 +48,9 @@ class BatchService extends Service {
     
     judgeTime(task){
         var inTime = true;
-        var type = "BACKUP_INFORMATION_FAULT";
-        if(type == task.type){
+        var type1 = "BACKUP_INFORMATION_FAULT";
+        var type2 = "CP_STATE_NOT_NORMAL";
+        if(type1 == task.type || type2 == task.type){
             var date = new Date();
             var hour = date.getHours();
             if(hour > 5 || hour < 2){
