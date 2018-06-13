@@ -1,0 +1,220 @@
+2018-06-12 11:09:08,077 ERROR 7308 [-/127.0.0.1/-/224ms GET /findEventByTime?startTime=1528772000] nodejs.ReferenceError: i is not defined
+    at EventService.getEventForTime (D:\机器人\IronEgg\app\service\event.js:13:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7308
+hostname: gmcc-maiqp
+
+2018-06-12 11:09:21,028 ERROR 7308 [-/127.0.0.1/-/272ms GET /findEventByTime?startTime=1528772000] nodejs.ReferenceError: i is not defined
+    at EventService.getEventForTime (D:\机器人\IronEgg\app\service\event.js:13:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7308
+hostname: gmcc-maiqp
+
+2018-06-12 11:09:48,781 ERROR 8828 [-/127.0.0.1/-/135ms GET /findEventByTime?startTime=1528772000] nodejs.TypeError: result.length is not a function
+    at EventService.getEventForTime (D:\机器人\IronEgg\app\service\event.js:13:35)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 8828
+hostname: gmcc-maiqp
+
+2018-06-12 11:10:37,021 ERROR 2676 [-/127.0.0.1/-/489ms GET /findEventByTime?startTime=1528772000] nodejs.TypeError: result.length is not a function
+    at EventService.getEventForTime (D:\机器人\IronEgg\app\service\event.js:13:35)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2676
+hostname: gmcc-maiqp
+
+2018-06-12 11:11:09,816 ERROR 7308 [-/127.0.0.1/-/383ms GET /findEventByTime?startTime=1528772000] nodejs.TypeError: result[i].push is not a function
+    at EventService.getEventForTime (D:\机器人\IronEgg\app\service\event.js:17:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7308
+hostname: gmcc-maiqp
+
+2018-06-12 11:17:42,917 ERROR 7244 nodejs.ClusterClientNoResponseError: client no response in 72168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\机器人\IronEgg\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 7244
+hostname: gmcc-maiqp
+
+2018-06-12 14:33:26,953 ERROR 6452 [-/127.0.0.1/-/32ms GET /findEvent?eventId=5_1036543801|3365998304|3092923184|2458002064] nodejs.Error: missing parameters
+    at ClientController.getEventInfo (D:\机器人\IronEgg\app\controller\client.js:109:33)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\机器人\IronEgg\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\机器人\IronEgg\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 6452
+hostname: gmcc-maiqp
+
+2018-06-12 14:34:13,083 ERROR 2008 [-/127.0.0.1/-/9430ms GET /findEvent?eventId=5_1036543801|3365998304|3092923184|2458002064] nodejs.Error: missing parameters
+    at ClientController.getEventInfo (D:\机器人\IronEgg\app\controller\client.js:109:33)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\机器人\IronEgg\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\机器人\IronEgg\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2008
+hostname: gmcc-maiqp
+
+2018-06-12 14:34:40,532 ERROR 2008 [-/127.0.0.1/-/10167ms GET /findEvent?eventId=5_1036543801|3365998304|3092923184|2458002064] nodejs.Error: missing parameters
+    at ClientController.getEventInfo (D:\机器人\IronEgg\app\controller\client.js:109:33)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\机器人\IronEgg\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\机器人\IronEgg\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2008
+hostname: gmcc-maiqp
+
+2018-06-12 14:34:58,130 ERROR 2008 [-/127.0.0.1/-/8ms GET /findEvent?eventId=5_1036543801|3365998304|3092923184|2458002064] nodejs.Error: missing parameters
+    at ClientController.getEventInfo (D:\机器人\IronEgg\app\controller\client.js:109:33)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\机器人\IronEgg\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\机器人\IronEgg\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2008
+hostname: gmcc-maiqp
+
+2018-06-12 14:35:08,518 ERROR 2008 [-/127.0.0.1/-/3ms GET /findEvent?eventId=5_1036543801|3365998304|3092923184|2458002064] nodejs.Error: missing parameters
+    at ClientController.getEventInfo (D:\机器人\IronEgg\app\controller\client.js:109:33)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\机器人\IronEgg\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\机器人\IronEgg\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2008
+hostname: gmcc-maiqp
+
+2018-06-12 14:35:43,239 ERROR 6668 [-/127.0.0.1/-/6640ms GET /findEvent?eventId=5_1036543801|3365998304|3092923184|2458002064] nodejs.Error: missing parameters
+    at ClientController.getEventInfo (D:\机器人\IronEgg\app\controller\client.js:110:33)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\机器人\IronEgg\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\机器人\IronEgg\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 6668
+hostname: gmcc-maiqp
+
+2018-06-12 14:36:13,447 ERROR 3524 [-/127.0.0.1/-/20ms GET /findEvent?eventId=5_1036543801|3365998304|3092923184|2458002064] nodejs.ReferenceError: evnetId is not defined
+    at EventService.getEventInfo (D:\机器人\IronEgg\app\service\event.js:22:71)
+    at ClientController.getEventInfo (D:\机器人\IronEgg\app\controller\client.js:111:51)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\机器人\IronEgg\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\机器人\IronEgg\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 3524
+hostname: gmcc-maiqp
+
+2018-06-12 14:36:22,093 ERROR 3524 [-/127.0.0.1/-/2932ms GET /findEvent?eventId=5_1036543801|3365998304|3092923184|2458002064] nodejs.ReferenceError: evnetId is not defined
+    at EventService.getEventInfo (D:\机器人\IronEgg\app\service\event.js:22:71)
+    at ClientController.getEventInfo (D:\机器人\IronEgg\app\controller\client.js:111:51)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\机器人\IronEgg\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\机器人\IronEgg\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 3524
+hostname: gmcc-maiqp
+
+2018-06-12 14:38:48,397 ERROR 9208 [-/127.0.0.1/-/6490ms GET /findEvent?eventId=5_1036543801|3365998304|3092923184|2458002064] nodejs.ReferenceError: evnetId is not defined
+    at EventService.getEventInfo (D:\机器人\IronEgg\app\service\event.js:22:71)
+    at ClientController.getEventInfo (D:\机器人\IronEgg\app\controller\client.js:112:51)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\机器人\IronEgg\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\机器人\IronEgg\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 9208
+hostname: gmcc-maiqp
+
+2018-06-12 14:38:48,527 ERROR 9208 A client (::ffff:127.0.0.1:51423) error [ECONNRESET] occurred: read ECONNRESET
+2018-06-12 14:38:51,740 ERROR 9208 [-/127.0.0.1/-/3210ms GET /findEvent?eventId=5_1036543801|3365998304|3092923184|2458002064] nodejs.ReferenceError: evnetId is not defined
+    at EventService.getEventInfo (D:\机器人\IronEgg\app\service\event.js:22:71)
+    at ClientController.getEventInfo (D:\机器人\IronEgg\app\controller\client.js:112:51)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\机器人\IronEgg\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\机器人\IronEgg\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\机器人\IronEgg\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\机器人\IronEgg\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 9208
+hostname: gmcc-maiqp
+
+2018-06-12 14:41:17,070 ERROR 3204 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 3204
+hostname: gmcc-maiqp
+
+2018-06-12 14:59:58,409 ERROR 3204 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 3204
+hostname: gmcc-maiqp
+

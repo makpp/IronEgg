@@ -104,6 +104,24 @@ class ClientController extends Controller {
         this.ctx.body = result;
     }
 
+    async getEventInfo() {
+        const query = this.ctx.query;
+        if(!query.eventId) throw new Error("missing parameters");
+        else{var eventId = query.eventId;}
+        var result = await this.ctx.service.event.getEventInfo(eventId);
+        this.ctx.body = result;
+    }
+
+    async getCurrentEventState() {
+        const query = this.ctx.query;
+        if(!query.eventId) throw new Error("missing parameters");
+        else{var eventId = query.eventId;}
+        var result = await this.ctx.service.event.getCurrentEventState(eventId);
+        this.ctx.body = result;
+    }
+
+
+
 }
 
 module.exports = ClientController;
