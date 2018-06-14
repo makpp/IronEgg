@@ -120,7 +120,13 @@ class ClientController extends Controller {
         this.ctx.body = result;
     }
 
-
+    async getCurrentEvents() {
+        const query = this.ctx.query;
+        if(!query.startTime || !query.event_type) throw new Error("missing parameters");
+        else{var startTime = query.startTime; event_type = parseInt(query.event_type);}
+        var result = await this.ctx.service.event.getCurrentEvents(startTime,event_type);
+        this.ctx.body = result;
+    }
 
 }
 

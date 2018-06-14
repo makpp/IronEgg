@@ -29,6 +29,12 @@ class EventService extends Service {
             return result;
         }
 
+        async getCurrentEvents(startTime,event_type){
+            var startTimeDate = new Date(startTime*1000);
+            var sql = "select * from R_Event where event_type = ? AND start_time>=?";
+            var result = await this.app.mysql.query(sql, [eventId, startTime]);
+            return result;    
+        }
         
 }
 

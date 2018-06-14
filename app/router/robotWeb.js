@@ -26,4 +26,6 @@ module.exports = app =>{
     app.router.get('/HumanOperLog', app.controller.client.loadHumanOperLogByfp);
     // url http://127.0.0.1:7001/HumanProcess?human_process=123&state=123&fp=123&process_log=123
     app.router.get('/HumanProcess', app.controller.client.updateAlarmProcess_HumanProcess);
+    // url http://127.0.0.1:7001/getEventServlet?startTime=123&event_type=123
+    app.router.get('/getEventServlet', app.controller.client.getCurrentEvents);
 };
