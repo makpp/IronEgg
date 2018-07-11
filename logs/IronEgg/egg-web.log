@@ -730,3 +730,635 @@
 2018-06-12 15:00:03,344 INFO 2768 [egg-security] compose 6 middlewares into one security middleware
 2018-06-12 15:00:03,450 INFO 2768 [egg-watcher:app] watcher start success
 2018-06-12 15:00:03,473 INFO 2768 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jun 12 2018 14:57:48 GMT+0800 (中国标准时间)
+2018-06-20 10:33:17,771 INFO 11792 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-20 10:33:17,923 INFO 11792 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-20 10:33:17,923 INFO 11792 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-20 10:33:17,995 INFO 11792 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-20 10:33:20,676 INFO 11792 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-20 10:33:20,691 INFO 11792 [egg-security] use methodnoallow middleware
+2018-06-20 10:33:20,695 INFO 11792 [egg-security] use noopen middleware
+2018-06-20 10:33:20,698 INFO 11792 [egg-security] use nosniff middleware
+2018-06-20 10:33:20,702 INFO 11792 [egg-security] use xssProtection middleware
+2018-06-20 10:33:20,706 INFO 11792 [egg-security] use xframe middleware
+2018-06-20 10:33:20,717 INFO 11792 [egg-security] use dta middleware
+2018-06-20 10:33:20,717 INFO 11792 [egg-security] compose 6 middlewares into one security middleware
+2018-06-20 10:33:21,057 INFO 11792 [egg-watcher:app] watcher start success
+2018-06-20 10:33:21,090 INFO 11792 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jun 20 2018 10:30:47 GMT+0800 (中国标准时间)
+2018-06-20 10:34:05,007 INFO 11740 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-20 10:34:05,119 INFO 11740 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-20 10:34:05,119 INFO 11740 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-20 10:34:05,193 INFO 11740 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-20 10:34:05,836 INFO 11740 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-20 10:34:05,843 INFO 11740 [egg-security] use methodnoallow middleware
+2018-06-20 10:34:05,845 INFO 11740 [egg-security] use noopen middleware
+2018-06-20 10:34:05,847 INFO 11740 [egg-security] use nosniff middleware
+2018-06-20 10:34:05,849 INFO 11740 [egg-security] use xssProtection middleware
+2018-06-20 10:34:05,851 INFO 11740 [egg-security] use xframe middleware
+2018-06-20 10:34:05,852 INFO 11740 [egg-security] use dta middleware
+2018-06-20 10:34:05,852 INFO 11740 [egg-security] compose 6 middlewares into one security middleware
+2018-06-20 10:34:05,962 INFO 11740 [egg-watcher:app] watcher start success
+2018-06-20 10:34:05,977 INFO 11740 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jun 20 2018 10:31:32 GMT+0800 (中国标准时间)
+2018-06-20 10:34:39,006 INFO 3544 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-20 10:34:39,124 INFO 3544 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-20 10:34:39,124 INFO 3544 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-20 10:34:39,182 INFO 3544 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-20 10:34:40,128 INFO 3544 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-20 10:34:40,142 INFO 3544 [egg-security] use methodnoallow middleware
+2018-06-20 10:34:40,145 INFO 3544 [egg-security] use noopen middleware
+2018-06-20 10:34:40,149 INFO 3544 [egg-security] use nosniff middleware
+2018-06-20 10:34:40,153 INFO 3544 [egg-security] use xssProtection middleware
+2018-06-20 10:34:40,158 INFO 3544 [egg-security] use xframe middleware
+2018-06-20 10:34:40,160 INFO 3544 [egg-security] use dta middleware
+2018-06-20 10:34:40,160 INFO 3544 [egg-security] compose 6 middlewares into one security middleware
+2018-06-20 10:34:40,345 INFO 3544 [egg-watcher:app] watcher start success
+2018-06-20 10:34:40,389 INFO 3544 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jun 20 2018 10:32:06 GMT+0800 (中国标准时间)
+2018-06-21 15:33:40,497 INFO 4196 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 15:33:40,648 INFO 4196 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 15:33:40,648 INFO 4196 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 15:33:40,732 INFO 4196 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 15:33:41,574 INFO 4196 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 15:33:41,583 INFO 4196 [egg-security] use methodnoallow middleware
+2018-06-21 15:33:41,587 INFO 4196 [egg-security] use noopen middleware
+2018-06-21 15:33:41,590 INFO 4196 [egg-security] use nosniff middleware
+2018-06-21 15:33:41,596 INFO 4196 [egg-security] use xssProtection middleware
+2018-06-21 15:33:41,601 INFO 4196 [egg-security] use xframe middleware
+2018-06-21 15:33:41,603 INFO 4196 [egg-security] use dta middleware
+2018-06-21 15:33:41,603 INFO 4196 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 15:33:42,121 INFO 4196 [egg-watcher:app] watcher start success
+2018-06-21 15:33:42,378 INFO 4196 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 15:31:06 GMT+0800 (中国标准时间)
+2018-06-21 15:45:55,762 INFO 8196 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 15:45:55,912 INFO 8196 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 15:45:55,912 INFO 8196 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 15:45:55,995 INFO 8196 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 15:45:57,478 INFO 8196 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 15:45:57,492 INFO 8196 [egg-security] use methodnoallow middleware
+2018-06-21 15:45:57,496 INFO 8196 [egg-security] use noopen middleware
+2018-06-21 15:45:57,498 INFO 8196 [egg-security] use nosniff middleware
+2018-06-21 15:45:57,502 INFO 8196 [egg-security] use xssProtection middleware
+2018-06-21 15:45:57,506 INFO 8196 [egg-security] use xframe middleware
+2018-06-21 15:45:57,510 INFO 8196 [egg-security] use dta middleware
+2018-06-21 15:45:57,510 INFO 8196 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 15:45:57,753 INFO 8196 [egg-watcher:app] watcher start success
+2018-06-21 15:45:57,773 INFO 8196 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 15:43:21 GMT+0800 (中国标准时间)
+2018-06-21 15:46:17,654 INFO 7764 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 15:46:17,844 INFO 7764 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 15:46:17,844 INFO 7764 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 15:46:18,089 INFO 7764 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 15:46:19,518 INFO 7764 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 15:46:19,527 INFO 7764 [egg-security] use methodnoallow middleware
+2018-06-21 15:46:19,531 INFO 7764 [egg-security] use noopen middleware
+2018-06-21 15:46:19,533 INFO 7764 [egg-security] use nosniff middleware
+2018-06-21 15:46:19,536 INFO 7764 [egg-security] use xssProtection middleware
+2018-06-21 15:46:19,540 INFO 7764 [egg-security] use xframe middleware
+2018-06-21 15:46:19,543 INFO 7764 [egg-security] use dta middleware
+2018-06-21 15:46:19,543 INFO 7764 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 15:46:19,744 INFO 7764 [egg-watcher:app] watcher start success
+2018-06-21 15:46:19,755 INFO 7764 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 15:43:43 GMT+0800 (中国标准时间)
+2018-06-21 15:47:06,069 INFO 9744 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 15:47:06,502 INFO 9744 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 15:47:06,502 INFO 9744 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 15:47:06,590 INFO 9744 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 15:47:07,711 INFO 9744 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 15:47:07,722 INFO 9744 [egg-security] use methodnoallow middleware
+2018-06-21 15:47:07,725 INFO 9744 [egg-security] use noopen middleware
+2018-06-21 15:47:07,737 INFO 9744 [egg-security] use nosniff middleware
+2018-06-21 15:47:07,742 INFO 9744 [egg-security] use xssProtection middleware
+2018-06-21 15:47:07,744 INFO 9744 [egg-security] use xframe middleware
+2018-06-21 15:47:07,746 INFO 9744 [egg-security] use dta middleware
+2018-06-21 15:47:07,746 INFO 9744 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 15:47:08,010 INFO 9744 [egg-watcher:app] watcher start success
+2018-06-21 15:47:08,020 INFO 9744 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 15:44:32 GMT+0800 (中国标准时间)
+2018-06-21 15:47:18,860 INFO 4512 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 15:47:19,036 INFO 4512 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 15:47:19,036 INFO 4512 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 15:47:19,118 INFO 4512 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 15:47:20,688 INFO 4512 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 15:47:20,710 INFO 4512 [egg-security] use methodnoallow middleware
+2018-06-21 15:47:20,715 INFO 4512 [egg-security] use noopen middleware
+2018-06-21 15:47:20,719 INFO 4512 [egg-security] use nosniff middleware
+2018-06-21 15:47:20,722 INFO 4512 [egg-security] use xssProtection middleware
+2018-06-21 15:47:20,725 INFO 4512 [egg-security] use xframe middleware
+2018-06-21 15:47:20,729 INFO 4512 [egg-security] use dta middleware
+2018-06-21 15:47:20,729 INFO 4512 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 15:47:20,956 INFO 4512 [egg-watcher:app] watcher start success
+2018-06-21 15:47:20,965 INFO 4512 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 15:44:45 GMT+0800 (中国标准时间)
+2018-06-21 15:47:36,967 INFO 9152 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 15:47:37,151 INFO 9152 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 15:47:37,151 INFO 9152 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 15:47:37,230 INFO 9152 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 15:47:38,279 INFO 9152 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 15:47:38,305 INFO 9152 [egg-security] use methodnoallow middleware
+2018-06-21 15:47:38,313 INFO 9152 [egg-security] use noopen middleware
+2018-06-21 15:47:38,317 INFO 9152 [egg-security] use nosniff middleware
+2018-06-21 15:47:38,321 INFO 9152 [egg-security] use xssProtection middleware
+2018-06-21 15:47:38,330 INFO 9152 [egg-security] use xframe middleware
+2018-06-21 15:47:38,333 INFO 9152 [egg-security] use dta middleware
+2018-06-21 15:47:38,333 INFO 9152 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 15:47:38,560 INFO 9152 [egg-watcher:app] watcher start success
+2018-06-21 15:47:38,575 INFO 9152 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 15:45:02 GMT+0800 (中国标准时间)
+2018-06-21 15:51:26,106 WARN 9152 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-06-21 15:51:26,118 WARN 9152 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-06-21 15:54:00,655 INFO 6136 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 15:54:00,951 INFO 6136 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 15:54:00,951 INFO 6136 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 15:54:01,115 INFO 6136 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 15:54:02,739 INFO 6136 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 15:54:02,749 INFO 6136 [egg-security] use methodnoallow middleware
+2018-06-21 15:54:02,755 INFO 6136 [egg-security] use noopen middleware
+2018-06-21 15:54:02,760 INFO 6136 [egg-security] use nosniff middleware
+2018-06-21 15:54:02,764 INFO 6136 [egg-security] use xssProtection middleware
+2018-06-21 15:54:02,769 INFO 6136 [egg-security] use xframe middleware
+2018-06-21 15:54:02,773 INFO 6136 [egg-security] use dta middleware
+2018-06-21 15:54:02,773 INFO 6136 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 15:54:02,930 INFO 6136 [egg-watcher:app] watcher start success
+2018-06-21 15:54:02,954 INFO 6136 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 15:51:27 GMT+0800 (中国标准时间)
+2018-06-21 15:56:58,153 WARN 6136 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-06-21 15:56:58,160 WARN 6136 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-06-21 16:08:54,331 INFO 6124 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 16:08:54,636 INFO 6124 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 16:08:54,636 INFO 6124 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 16:08:54,774 INFO 6124 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 16:08:56,947 INFO 6124 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 16:08:56,972 INFO 6124 [egg-security] use methodnoallow middleware
+2018-06-21 16:08:56,976 INFO 6124 [egg-security] use noopen middleware
+2018-06-21 16:08:56,979 INFO 6124 [egg-security] use nosniff middleware
+2018-06-21 16:08:56,981 INFO 6124 [egg-security] use xssProtection middleware
+2018-06-21 16:08:56,985 INFO 6124 [egg-security] use xframe middleware
+2018-06-21 16:08:56,990 INFO 6124 [egg-security] use dta middleware
+2018-06-21 16:08:56,990 INFO 6124 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 16:08:57,311 INFO 6124 [egg-watcher:app] watcher start success
+2018-06-21 16:08:57,330 INFO 6124 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 16:06:21 GMT+0800 (中国标准时间)
+2018-06-21 16:31:04,983 INFO 7448 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 16:31:05,172 INFO 7448 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 16:31:05,172 INFO 7448 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 16:31:05,300 INFO 7448 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 16:31:06,832 INFO 7448 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 16:31:06,840 INFO 7448 [egg-security] use methodnoallow middleware
+2018-06-21 16:31:06,842 INFO 7448 [egg-security] use noopen middleware
+2018-06-21 16:31:06,845 INFO 7448 [egg-security] use nosniff middleware
+2018-06-21 16:31:06,848 INFO 7448 [egg-security] use xssProtection middleware
+2018-06-21 16:31:06,851 INFO 7448 [egg-security] use xframe middleware
+2018-06-21 16:31:06,853 INFO 7448 [egg-security] use dta middleware
+2018-06-21 16:31:06,853 INFO 7448 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 16:31:07,022 INFO 7448 [egg-watcher:app] watcher start success
+2018-06-21 16:31:07,053 INFO 7448 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 16:28:31 GMT+0800 (中国标准时间)
+2018-06-21 16:36:39,332 INFO 6732 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 16:36:39,529 INFO 6732 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 16:36:39,529 INFO 6732 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 16:36:39,697 INFO 6732 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 16:36:41,147 INFO 6732 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 16:36:41,169 INFO 6732 [egg-security] use methodnoallow middleware
+2018-06-21 16:36:41,175 INFO 6732 [egg-security] use noopen middleware
+2018-06-21 16:36:41,178 INFO 6732 [egg-security] use nosniff middleware
+2018-06-21 16:36:41,182 INFO 6732 [egg-security] use xssProtection middleware
+2018-06-21 16:36:41,188 INFO 6732 [egg-security] use xframe middleware
+2018-06-21 16:36:41,197 INFO 6732 [egg-security] use dta middleware
+2018-06-21 16:36:41,197 INFO 6732 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 16:36:41,456 INFO 6732 [egg-watcher:app] watcher start success
+2018-06-21 16:36:41,460 INFO 6732 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 16:34:05 GMT+0800 (中国标准时间)
+2018-06-21 16:36:50,007 INFO 8232 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 16:36:50,500 INFO 8232 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 16:36:50,500 INFO 8232 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 16:36:50,692 INFO 8232 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 16:36:52,706 INFO 8232 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 16:36:52,721 INFO 8232 [egg-security] use methodnoallow middleware
+2018-06-21 16:36:52,732 INFO 8232 [egg-security] use noopen middleware
+2018-06-21 16:36:52,735 INFO 8232 [egg-security] use nosniff middleware
+2018-06-21 16:36:52,739 INFO 8232 [egg-security] use xssProtection middleware
+2018-06-21 16:36:52,744 INFO 8232 [egg-security] use xframe middleware
+2018-06-21 16:36:52,749 INFO 8232 [egg-security] use dta middleware
+2018-06-21 16:36:52,749 INFO 8232 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 16:36:52,501 INFO 4680 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 16:36:52,798 INFO 4680 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 16:36:52,798 INFO 4680 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 16:36:53,007 INFO 4680 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 16:36:55,470 INFO 4680 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 16:36:55,481 INFO 4680 [egg-security] use methodnoallow middleware
+2018-06-21 16:36:55,487 INFO 4680 [egg-security] use noopen middleware
+2018-06-21 16:36:55,491 INFO 4680 [egg-security] use nosniff middleware
+2018-06-21 16:36:55,497 INFO 4680 [egg-security] use xssProtection middleware
+2018-06-21 16:36:55,503 INFO 4680 [egg-security] use xframe middleware
+2018-06-21 16:36:55,516 INFO 4680 [egg-security] use dta middleware
+2018-06-21 16:36:55,516 INFO 4680 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 16:36:55,852 INFO 4680 [egg-watcher:app] watcher start success
+2018-06-21 16:36:55,890 INFO 4680 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 16:34:19 GMT+0800 (中国标准时间)
+2018-06-21 16:36:59,592 INFO 12120 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 16:36:59,737 INFO 12120 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 16:36:59,737 INFO 12120 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 16:36:59,825 INFO 12120 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 16:37:00,676 INFO 12120 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 16:37:00,683 INFO 12120 [egg-security] use methodnoallow middleware
+2018-06-21 16:37:00,685 INFO 12120 [egg-security] use noopen middleware
+2018-06-21 16:37:00,687 INFO 12120 [egg-security] use nosniff middleware
+2018-06-21 16:37:00,691 INFO 12120 [egg-security] use xssProtection middleware
+2018-06-21 16:37:00,693 INFO 12120 [egg-security] use xframe middleware
+2018-06-21 16:37:00,695 INFO 12120 [egg-security] use dta middleware
+2018-06-21 16:37:00,696 INFO 12120 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 16:37:00,809 INFO 12120 [egg-watcher:app] watcher start success
+2018-06-21 16:37:00,825 INFO 12120 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 16:34:24 GMT+0800 (中国标准时间)
+2018-06-21 16:37:42,739 INFO 11488 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 16:37:42,953 INFO 11488 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 16:37:42,953 INFO 11488 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 16:37:43,023 INFO 11488 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 16:37:44,275 INFO 11488 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 16:37:44,286 INFO 11488 [egg-security] use methodnoallow middleware
+2018-06-21 16:37:44,288 INFO 11488 [egg-security] use noopen middleware
+2018-06-21 16:37:44,292 INFO 11488 [egg-security] use nosniff middleware
+2018-06-21 16:37:44,294 INFO 11488 [egg-security] use xssProtection middleware
+2018-06-21 16:37:44,298 INFO 11488 [egg-security] use xframe middleware
+2018-06-21 16:37:44,300 INFO 11488 [egg-security] use dta middleware
+2018-06-21 16:37:44,300 INFO 11488 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 16:37:44,488 INFO 11488 [egg-watcher:app] watcher start success
+2018-06-21 16:37:44,501 INFO 11488 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 16:35:08 GMT+0800 (中国标准时间)
+2018-06-21 16:38:16,608 INFO 10172 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-21 16:38:16,833 INFO 10172 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-21 16:38:16,833 INFO 10172 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-21 16:38:17,040 INFO 10172 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-21 16:38:18,564 INFO 10172 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-21 16:38:18,575 INFO 10172 [egg-security] use methodnoallow middleware
+2018-06-21 16:38:18,580 INFO 10172 [egg-security] use noopen middleware
+2018-06-21 16:38:18,587 INFO 10172 [egg-security] use nosniff middleware
+2018-06-21 16:38:18,589 INFO 10172 [egg-security] use xssProtection middleware
+2018-06-21 16:38:18,593 INFO 10172 [egg-security] use xframe middleware
+2018-06-21 16:38:18,596 INFO 10172 [egg-security] use dta middleware
+2018-06-21 16:38:18,596 INFO 10172 [egg-security] compose 6 middlewares into one security middleware
+2018-06-21 16:38:18,783 INFO 10172 [egg-watcher:app] watcher start success
+2018-06-21 16:38:18,789 INFO 10172 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 21 2018 16:35:42 GMT+0800 (中国标准时间)
+2018-06-22 10:14:50,009 INFO 2248 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-22 10:14:51,013 INFO 2248 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-22 10:14:51,013 INFO 2248 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-22 10:14:51,194 INFO 2248 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-22 10:14:55,205 INFO 2248 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-22 10:14:55,220 INFO 2248 [egg-security] use methodnoallow middleware
+2018-06-22 10:14:55,223 INFO 2248 [egg-security] use noopen middleware
+2018-06-22 10:14:55,226 INFO 2248 [egg-security] use nosniff middleware
+2018-06-22 10:14:55,230 INFO 2248 [egg-security] use xssProtection middleware
+2018-06-22 10:14:55,241 INFO 2248 [egg-security] use xframe middleware
+2018-06-22 10:14:55,248 INFO 2248 [egg-security] use dta middleware
+2018-06-22 10:14:55,248 INFO 2248 [egg-security] compose 6 middlewares into one security middleware
+2018-06-22 10:14:55,517 INFO 2248 [egg-watcher:app] watcher start success
+2018-06-22 10:14:55,543 INFO 2248 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jun 22 2018 10:12:18 GMT+0800 (中国标准时间)
+2018-06-22 10:18:19,629 INFO 9612 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-22 10:18:19,772 INFO 9612 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-22 10:18:19,772 INFO 9612 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-22 10:18:19,854 INFO 9612 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-22 10:18:20,488 INFO 9612 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-22 10:18:20,494 INFO 9612 [egg-security] use methodnoallow middleware
+2018-06-22 10:18:20,495 INFO 9612 [egg-security] use noopen middleware
+2018-06-22 10:18:20,496 INFO 9612 [egg-security] use nosniff middleware
+2018-06-22 10:18:20,498 INFO 9612 [egg-security] use xssProtection middleware
+2018-06-22 10:18:20,500 INFO 9612 [egg-security] use xframe middleware
+2018-06-22 10:18:20,501 INFO 9612 [egg-security] use dta middleware
+2018-06-22 10:18:20,501 INFO 9612 [egg-security] compose 6 middlewares into one security middleware
+2018-06-22 10:18:20,602 INFO 9612 [egg-watcher:app] watcher start success
+2018-06-22 10:18:20,623 INFO 9612 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jun 22 2018 10:15:43 GMT+0800 (中国标准时间)
+2018-06-22 10:20:12,338 INFO 3796 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-22 10:20:12,524 INFO 3796 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-22 10:20:12,524 INFO 3796 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-22 10:20:12,625 INFO 3796 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-22 10:20:13,306 INFO 3796 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-22 10:20:13,313 INFO 3796 [egg-security] use methodnoallow middleware
+2018-06-22 10:20:13,315 INFO 3796 [egg-security] use noopen middleware
+2018-06-22 10:20:13,317 INFO 3796 [egg-security] use nosniff middleware
+2018-06-22 10:20:13,320 INFO 3796 [egg-security] use xssProtection middleware
+2018-06-22 10:20:13,322 INFO 3796 [egg-security] use xframe middleware
+2018-06-22 10:20:13,325 INFO 3796 [egg-security] use dta middleware
+2018-06-22 10:20:13,325 INFO 3796 [egg-security] compose 6 middlewares into one security middleware
+2018-06-22 10:20:13,445 INFO 3796 [egg-watcher:app] watcher start success
+2018-06-22 10:20:13,465 INFO 3796 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jun 22 2018 10:17:36 GMT+0800 (中国标准时间)
+2018-06-22 10:30:03,842 INFO 4348 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-22 10:30:03,981 INFO 4348 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-22 10:30:03,981 INFO 4348 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-22 10:30:04,083 INFO 4348 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-22 10:30:05,004 INFO 4348 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-22 10:30:05,012 INFO 4348 [egg-security] use methodnoallow middleware
+2018-06-22 10:30:05,014 INFO 4348 [egg-security] use noopen middleware
+2018-06-22 10:30:05,016 INFO 4348 [egg-security] use nosniff middleware
+2018-06-22 10:30:05,019 INFO 4348 [egg-security] use xssProtection middleware
+2018-06-22 10:30:05,020 INFO 4348 [egg-security] use xframe middleware
+2018-06-22 10:30:05,021 INFO 4348 [egg-security] use dta middleware
+2018-06-22 10:30:05,022 INFO 4348 [egg-security] compose 6 middlewares into one security middleware
+2018-06-22 10:30:05,117 INFO 4348 [egg-watcher:app] watcher start success
+2018-06-22 10:30:05,142 INFO 4348 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jun 22 2018 10:27:27 GMT+0800 (中国标准时间)
+2018-06-22 10:30:07,268 INFO 11004 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-22 10:30:07,355 INFO 11004 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-22 10:30:07,355 INFO 11004 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-22 10:30:07,404 INFO 11004 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-22 10:30:07,868 INFO 11004 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-22 10:30:07,874 INFO 11004 [egg-security] use methodnoallow middleware
+2018-06-22 10:30:07,876 INFO 11004 [egg-security] use noopen middleware
+2018-06-22 10:30:07,877 INFO 11004 [egg-security] use nosniff middleware
+2018-06-22 10:30:07,878 INFO 11004 [egg-security] use xssProtection middleware
+2018-06-22 10:30:07,880 INFO 11004 [egg-security] use xframe middleware
+2018-06-22 10:30:07,881 INFO 11004 [egg-security] use dta middleware
+2018-06-22 10:30:07,881 INFO 11004 [egg-security] compose 6 middlewares into one security middleware
+2018-06-22 10:30:07,962 INFO 11004 [egg-watcher:app] watcher start success
+2018-06-22 10:30:08,146 INFO 11004 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jun 22 2018 10:27:30 GMT+0800 (中国标准时间)
+2018-06-22 10:31:38,815 INFO 7360 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-22 10:31:38,938 INFO 7360 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-22 10:31:38,938 INFO 7360 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-22 10:31:39,019 INFO 7360 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-22 10:31:39,674 INFO 7360 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-22 10:31:39,680 INFO 7360 [egg-security] use methodnoallow middleware
+2018-06-22 10:31:39,682 INFO 7360 [egg-security] use noopen middleware
+2018-06-22 10:31:39,683 INFO 7360 [egg-security] use nosniff middleware
+2018-06-22 10:31:39,685 INFO 7360 [egg-security] use xssProtection middleware
+2018-06-22 10:31:39,686 INFO 7360 [egg-security] use xframe middleware
+2018-06-22 10:31:39,687 INFO 7360 [egg-security] use dta middleware
+2018-06-22 10:31:39,687 INFO 7360 [egg-security] compose 6 middlewares into one security middleware
+2018-06-22 10:31:39,798 INFO 7360 [egg-watcher:app] watcher start success
+2018-06-22 10:31:39,812 INFO 7360 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jun 22 2018 10:29:02 GMT+0800 (中国标准时间)
+2018-06-22 10:34:00,258 INFO 10900 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-22 10:34:00,426 INFO 10900 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-22 10:34:00,426 INFO 10900 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-22 10:34:00,519 INFO 10900 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-22 10:34:01,378 INFO 10900 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-22 10:34:01,393 INFO 10900 [egg-security] use methodnoallow middleware
+2018-06-22 10:34:01,397 INFO 10900 [egg-security] use noopen middleware
+2018-06-22 10:34:01,400 INFO 10900 [egg-security] use nosniff middleware
+2018-06-22 10:34:01,404 INFO 10900 [egg-security] use xssProtection middleware
+2018-06-22 10:34:01,408 INFO 10900 [egg-security] use xframe middleware
+2018-06-22 10:34:01,413 INFO 10900 [egg-security] use dta middleware
+2018-06-22 10:34:01,413 INFO 10900 [egg-security] compose 6 middlewares into one security middleware
+2018-06-22 10:34:01,723 INFO 10900 [egg-watcher:app] watcher start success
+2018-06-22 10:34:02,078 INFO 10900 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jun 22 2018 10:31:24 GMT+0800 (中国标准时间)
+2018-06-25 09:34:44,524 INFO 548 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-25 09:34:44,683 INFO 548 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-25 09:34:44,683 INFO 548 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-25 09:34:44,761 INFO 548 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-25 09:34:47,512 INFO 548 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-25 09:34:47,534 INFO 548 [egg-security] use methodnoallow middleware
+2018-06-25 09:34:47,545 INFO 548 [egg-security] use noopen middleware
+2018-06-25 09:34:47,555 INFO 548 [egg-security] use nosniff middleware
+2018-06-25 09:34:47,565 INFO 548 [egg-security] use xssProtection middleware
+2018-06-25 09:34:47,576 INFO 548 [egg-security] use xframe middleware
+2018-06-25 09:34:47,586 INFO 548 [egg-security] use dta middleware
+2018-06-25 09:34:47,586 INFO 548 [egg-security] compose 6 middlewares into one security middleware
+2018-06-25 09:34:47,946 INFO 548 [egg-watcher:app] watcher start success
+2018-06-25 09:34:47,972 INFO 548 [egg-mysql] instance[0] status OK, rds currentTime: Mon Jun 25 2018 09:32:06 GMT+0800 (中国标准时间)
+2018-06-25 09:36:32,209 INFO 6432 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-25 09:36:32,366 INFO 6432 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-25 09:36:32,366 INFO 6432 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-25 09:36:32,478 INFO 6432 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-25 09:36:33,232 INFO 6432 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-25 09:36:33,239 INFO 6432 [egg-security] use methodnoallow middleware
+2018-06-25 09:36:33,241 INFO 6432 [egg-security] use noopen middleware
+2018-06-25 09:36:33,244 INFO 6432 [egg-security] use nosniff middleware
+2018-06-25 09:36:33,246 INFO 6432 [egg-security] use xssProtection middleware
+2018-06-25 09:36:33,249 INFO 6432 [egg-security] use xframe middleware
+2018-06-25 09:36:33,252 INFO 6432 [egg-security] use dta middleware
+2018-06-25 09:36:33,252 INFO 6432 [egg-security] compose 6 middlewares into one security middleware
+2018-06-25 09:36:33,370 INFO 6432 [egg-watcher:app] watcher start success
+2018-06-25 09:36:33,379 INFO 6432 [egg-mysql] instance[0] status OK, rds currentTime: Mon Jun 25 2018 09:33:51 GMT+0800 (中国标准时间)
+2018-06-25 09:37:06,403 INFO 5284 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-25 09:37:06,615 INFO 5284 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-25 09:37:06,615 INFO 5284 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-25 09:37:06,719 INFO 5284 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-06-25 09:37:07,606 INFO 5284 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-06-25 09:37:07,620 INFO 5284 [egg-security] use methodnoallow middleware
+2018-06-25 09:37:07,624 INFO 5284 [egg-security] use noopen middleware
+2018-06-25 09:37:07,628 INFO 5284 [egg-security] use nosniff middleware
+2018-06-25 09:37:07,631 INFO 5284 [egg-security] use xssProtection middleware
+2018-06-25 09:37:07,634 INFO 5284 [egg-security] use xframe middleware
+2018-06-25 09:37:07,638 INFO 5284 [egg-security] use dta middleware
+2018-06-25 09:37:07,638 INFO 5284 [egg-security] compose 6 middlewares into one security middleware
+2018-06-25 09:37:07,867 INFO 5284 [egg-watcher:app] watcher start success
+2018-06-25 09:37:07,887 INFO 5284 [egg-mysql] instance[0] status OK, rds currentTime: Mon Jun 25 2018 09:34:26 GMT+0800 (中国标准时间)
+2018-07-03 09:02:43,583 INFO 6584 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 09:02:43,928 INFO 6584 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 09:02:43,928 INFO 6584 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 09:02:44,159 INFO 6584 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 09:02:48,651 INFO 6584 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 09:02:48,706 INFO 6584 [egg-security] use methodnoallow middleware
+2018-07-03 09:02:48,728 INFO 6584 [egg-security] use noopen middleware
+2018-07-03 09:02:48,747 INFO 6584 [egg-security] use nosniff middleware
+2018-07-03 09:02:48,766 INFO 6584 [egg-security] use xssProtection middleware
+2018-07-03 09:02:48,788 INFO 6584 [egg-security] use xframe middleware
+2018-07-03 09:02:48,806 INFO 6584 [egg-security] use dta middleware
+2018-07-03 09:02:48,806 INFO 6584 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 09:02:49,364 INFO 6584 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 08:59:54 GMT+0800 (中国标准时间)
+2018-07-03 09:02:49,372 INFO 6584 [egg-watcher:app] watcher start success
+2018-07-03 09:05:01,014 INFO 7148 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 09:05:01,193 INFO 7148 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 09:05:01,193 INFO 7148 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 09:05:01,263 INFO 7148 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 09:05:02,626 INFO 7148 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 09:05:02,645 INFO 7148 [egg-security] use methodnoallow middleware
+2018-07-03 09:05:02,650 INFO 7148 [egg-security] use noopen middleware
+2018-07-03 09:05:02,653 INFO 7148 [egg-security] use nosniff middleware
+2018-07-03 09:05:02,658 INFO 7148 [egg-security] use xssProtection middleware
+2018-07-03 09:05:02,661 INFO 7148 [egg-security] use xframe middleware
+2018-07-03 09:05:02,666 INFO 7148 [egg-security] use dta middleware
+2018-07-03 09:05:02,666 INFO 7148 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 09:05:02,972 INFO 7148 [egg-watcher:app] watcher start success
+2018-07-03 09:05:02,975 INFO 7148 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 09:02:08 GMT+0800 (中国标准时间)
+2018-07-03 09:08:29,595 INFO 1672 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 09:08:29,754 INFO 1672 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 09:08:29,754 INFO 1672 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 09:08:29,837 INFO 1672 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 09:08:31,274 INFO 1672 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 09:08:31,286 INFO 1672 [egg-security] use methodnoallow middleware
+2018-07-03 09:08:31,288 INFO 1672 [egg-security] use noopen middleware
+2018-07-03 09:08:31,294 INFO 1672 [egg-security] use nosniff middleware
+2018-07-03 09:08:31,298 INFO 1672 [egg-security] use xssProtection middleware
+2018-07-03 09:08:31,302 INFO 1672 [egg-security] use xframe middleware
+2018-07-03 09:08:31,306 INFO 1672 [egg-security] use dta middleware
+2018-07-03 09:08:31,306 INFO 1672 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 09:08:31,515 INFO 1672 [egg-watcher:app] watcher start success
+2018-07-03 09:08:31,534 INFO 1672 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 09:05:37 GMT+0800 (中国标准时间)
+2018-07-03 09:08:34,539 INFO 8184 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 09:08:34,616 INFO 8184 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 09:08:34,616 INFO 8184 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 09:08:34,694 INFO 8184 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 09:08:35,686 INFO 8184 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 09:08:35,691 INFO 8184 [egg-security] use methodnoallow middleware
+2018-07-03 09:08:35,693 INFO 8184 [egg-security] use noopen middleware
+2018-07-03 09:08:35,695 INFO 8184 [egg-security] use nosniff middleware
+2018-07-03 09:08:35,697 INFO 8184 [egg-security] use xssProtection middleware
+2018-07-03 09:08:35,698 INFO 8184 [egg-security] use xframe middleware
+2018-07-03 09:08:35,701 INFO 8184 [egg-security] use dta middleware
+2018-07-03 09:08:35,701 INFO 8184 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 09:08:35,835 INFO 8184 [egg-watcher:app] watcher start success
+2018-07-03 09:08:35,844 INFO 8184 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 09:05:41 GMT+0800 (中国标准时间)
+2018-07-03 09:20:03,542 INFO 5800 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 09:20:03,711 INFO 5800 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 09:20:03,711 INFO 5800 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 09:20:03,904 INFO 5800 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 09:20:05,099 INFO 5800 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 09:20:05,105 INFO 5800 [egg-security] use methodnoallow middleware
+2018-07-03 09:20:05,108 INFO 5800 [egg-security] use noopen middleware
+2018-07-03 09:20:05,112 INFO 5800 [egg-security] use nosniff middleware
+2018-07-03 09:20:05,115 INFO 5800 [egg-security] use xssProtection middleware
+2018-07-03 09:20:05,118 INFO 5800 [egg-security] use xframe middleware
+2018-07-03 09:20:05,123 INFO 5800 [egg-security] use dta middleware
+2018-07-03 09:20:05,123 INFO 5800 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 09:20:05,301 INFO 5800 [egg-watcher:app] watcher start success
+2018-07-03 09:20:05,314 INFO 5800 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 09:17:10 GMT+0800 (中国标准时间)
+2018-07-03 09:20:07,747 INFO 6460 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 09:20:07,852 INFO 6460 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 09:20:07,852 INFO 6460 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 09:20:07,902 INFO 6460 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 09:20:08,663 INFO 6460 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 09:20:08,669 INFO 6460 [egg-security] use methodnoallow middleware
+2018-07-03 09:20:08,671 INFO 6460 [egg-security] use noopen middleware
+2018-07-03 09:20:08,673 INFO 6460 [egg-security] use nosniff middleware
+2018-07-03 09:20:08,675 INFO 6460 [egg-security] use xssProtection middleware
+2018-07-03 09:20:08,677 INFO 6460 [egg-security] use xframe middleware
+2018-07-03 09:20:08,680 INFO 6460 [egg-security] use dta middleware
+2018-07-03 09:20:08,680 INFO 6460 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 09:20:08,777 INFO 6460 [egg-watcher:app] watcher start success
+2018-07-03 09:20:08,806 INFO 6460 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 09:17:14 GMT+0800 (中国标准时间)
+2018-07-03 09:20:15,325 INFO 6152 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 09:20:15,407 INFO 6152 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 09:20:15,407 INFO 6152 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 09:20:15,460 INFO 6152 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 09:20:16,293 INFO 6152 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 09:20:16,300 INFO 6152 [egg-security] use methodnoallow middleware
+2018-07-03 09:20:16,303 INFO 6152 [egg-security] use noopen middleware
+2018-07-03 09:20:16,305 INFO 6152 [egg-security] use nosniff middleware
+2018-07-03 09:20:16,307 INFO 6152 [egg-security] use xssProtection middleware
+2018-07-03 09:20:16,309 INFO 6152 [egg-security] use xframe middleware
+2018-07-03 09:20:16,312 INFO 6152 [egg-security] use dta middleware
+2018-07-03 09:20:16,312 INFO 6152 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 09:20:16,414 INFO 6152 [egg-watcher:app] watcher start success
+2018-07-03 09:20:16,427 INFO 6152 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 09:17:21 GMT+0800 (中国标准时间)
+2018-07-03 09:58:06,637 INFO 8916 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 09:58:06,754 INFO 8916 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 09:58:06,754 INFO 8916 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 09:58:06,812 INFO 8916 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 09:58:07,501 INFO 8916 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 09:58:07,509 INFO 8916 [egg-security] use methodnoallow middleware
+2018-07-03 09:58:07,511 INFO 8916 [egg-security] use noopen middleware
+2018-07-03 09:58:07,513 INFO 8916 [egg-security] use nosniff middleware
+2018-07-03 09:58:07,515 INFO 8916 [egg-security] use xssProtection middleware
+2018-07-03 09:58:07,516 INFO 8916 [egg-security] use xframe middleware
+2018-07-03 09:58:07,519 INFO 8916 [egg-security] use dta middleware
+2018-07-03 09:58:07,519 INFO 8916 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 09:58:07,625 INFO 8916 [egg-watcher:app] watcher start success
+2018-07-03 09:58:07,638 INFO 8916 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 09:55:13 GMT+0800 (中国标准时间)
+2018-07-03 10:00:56,769 INFO 3380 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 10:00:56,893 INFO 3380 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 10:00:56,893 INFO 3380 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 10:00:56,963 INFO 3380 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 10:00:58,187 INFO 3380 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 10:00:58,195 INFO 3380 [egg-security] use methodnoallow middleware
+2018-07-03 10:00:58,198 INFO 3380 [egg-security] use noopen middleware
+2018-07-03 10:00:58,201 INFO 3380 [egg-security] use nosniff middleware
+2018-07-03 10:00:58,204 INFO 3380 [egg-security] use xssProtection middleware
+2018-07-03 10:00:58,208 INFO 3380 [egg-security] use xframe middleware
+2018-07-03 10:00:58,211 INFO 3380 [egg-security] use dta middleware
+2018-07-03 10:00:58,211 INFO 3380 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 10:00:58,368 INFO 3380 [egg-watcher:app] watcher start success
+2018-07-03 10:00:58,385 INFO 3380 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 09:58:03 GMT+0800 (中国标准时间)
+2018-07-03 10:01:52,780 INFO 6684 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 10:01:52,949 INFO 6684 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 10:01:52,949 INFO 6684 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 10:01:53,006 INFO 6684 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 10:01:54,052 INFO 6684 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 10:01:54,066 INFO 6684 [egg-security] use methodnoallow middleware
+2018-07-03 10:01:54,069 INFO 6684 [egg-security] use noopen middleware
+2018-07-03 10:01:54,073 INFO 6684 [egg-security] use nosniff middleware
+2018-07-03 10:01:54,077 INFO 6684 [egg-security] use xssProtection middleware
+2018-07-03 10:01:54,082 INFO 6684 [egg-security] use xframe middleware
+2018-07-03 10:01:54,085 INFO 6684 [egg-security] use dta middleware
+2018-07-03 10:01:54,085 INFO 6684 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 10:01:54,220 INFO 6684 [egg-watcher:app] watcher start success
+2018-07-03 10:01:54,251 INFO 6684 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 09:58:59 GMT+0800 (中国标准时间)
+2018-07-03 10:02:35,996 INFO 7180 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 10:02:36,405 INFO 7180 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 10:02:36,405 INFO 7180 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 10:02:36,496 INFO 7180 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 10:02:37,650 INFO 7180 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 10:02:37,656 INFO 7180 [egg-security] use methodnoallow middleware
+2018-07-03 10:02:37,659 INFO 7180 [egg-security] use noopen middleware
+2018-07-03 10:02:37,662 INFO 7180 [egg-security] use nosniff middleware
+2018-07-03 10:02:37,667 INFO 7180 [egg-security] use xssProtection middleware
+2018-07-03 10:02:37,670 INFO 7180 [egg-security] use xframe middleware
+2018-07-03 10:02:37,676 INFO 7180 [egg-security] use dta middleware
+2018-07-03 10:02:37,676 INFO 7180 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 10:02:37,816 INFO 7180 [egg-watcher:app] watcher start success
+2018-07-03 10:02:37,864 INFO 7180 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 09:59:43 GMT+0800 (中国标准时间)
+2018-07-03 10:03:31,099 INFO 6420 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 10:03:31,231 INFO 6420 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 10:03:31,231 INFO 6420 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 10:03:31,320 INFO 6420 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 10:03:32,421 INFO 6420 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 10:03:32,428 INFO 6420 [egg-security] use methodnoallow middleware
+2018-07-03 10:03:32,431 INFO 6420 [egg-security] use noopen middleware
+2018-07-03 10:03:32,433 INFO 6420 [egg-security] use nosniff middleware
+2018-07-03 10:03:32,435 INFO 6420 [egg-security] use xssProtection middleware
+2018-07-03 10:03:32,437 INFO 6420 [egg-security] use xframe middleware
+2018-07-03 10:03:32,439 INFO 6420 [egg-security] use dta middleware
+2018-07-03 10:03:32,439 INFO 6420 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 10:03:32,547 INFO 6420 [egg-watcher:app] watcher start success
+2018-07-03 10:03:32,665 INFO 6420 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 10:00:38 GMT+0800 (中国标准时间)
+2018-07-03 10:09:00,513 INFO 3444 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 10:09:00,620 INFO 3444 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 10:09:00,620 INFO 3444 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 10:09:00,699 INFO 3444 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 10:09:01,935 INFO 3444 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 10:09:01,942 INFO 3444 [egg-security] use methodnoallow middleware
+2018-07-03 10:09:01,944 INFO 3444 [egg-security] use noopen middleware
+2018-07-03 10:09:01,946 INFO 3444 [egg-security] use nosniff middleware
+2018-07-03 10:09:01,950 INFO 3444 [egg-security] use xssProtection middleware
+2018-07-03 10:09:01,954 INFO 3444 [egg-security] use xframe middleware
+2018-07-03 10:09:01,958 INFO 3444 [egg-security] use dta middleware
+2018-07-03 10:09:01,958 INFO 3444 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 10:09:02,091 INFO 3444 [egg-watcher:app] watcher start success
+2018-07-03 10:09:02,116 INFO 3444 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 10:06:07 GMT+0800 (中国标准时间)
+2018-07-03 10:11:42,679 INFO 5576 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 10:11:42,799 INFO 5576 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 10:11:42,799 INFO 5576 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 10:11:42,873 INFO 5576 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 10:11:43,968 INFO 5576 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 10:11:43,974 INFO 5576 [egg-security] use methodnoallow middleware
+2018-07-03 10:11:43,978 INFO 5576 [egg-security] use noopen middleware
+2018-07-03 10:11:43,981 INFO 5576 [egg-security] use nosniff middleware
+2018-07-03 10:11:43,984 INFO 5576 [egg-security] use xssProtection middleware
+2018-07-03 10:11:43,987 INFO 5576 [egg-security] use xframe middleware
+2018-07-03 10:11:43,990 INFO 5576 [egg-security] use dta middleware
+2018-07-03 10:11:43,990 INFO 5576 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 10:11:44,108 INFO 5576 [egg-watcher:app] watcher start success
+2018-07-03 10:11:44,162 INFO 5576 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 10:08:49 GMT+0800 (中国标准时间)
+2018-07-03 10:16:23,458 INFO 7952 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 10:16:23,565 INFO 7952 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 10:16:23,565 INFO 7952 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 10:16:23,635 INFO 7952 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 10:16:24,830 INFO 7952 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 10:16:24,837 INFO 7952 [egg-security] use methodnoallow middleware
+2018-07-03 10:16:24,840 INFO 7952 [egg-security] use noopen middleware
+2018-07-03 10:16:24,842 INFO 7952 [egg-security] use nosniff middleware
+2018-07-03 10:16:24,845 INFO 7952 [egg-security] use xssProtection middleware
+2018-07-03 10:16:24,849 INFO 7952 [egg-security] use xframe middleware
+2018-07-03 10:16:24,852 INFO 7952 [egg-security] use dta middleware
+2018-07-03 10:16:24,852 INFO 7952 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 10:16:24,975 INFO 7952 [egg-watcher:app] watcher start success
+2018-07-03 10:16:24,983 INFO 7952 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 10:13:30 GMT+0800 (中国标准时间)
+2018-07-03 10:16:28,138 INFO 4548 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 10:16:28,227 INFO 4548 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 10:16:28,227 INFO 4548 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 10:16:28,277 INFO 4548 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 10:16:29,121 INFO 4548 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 10:16:29,131 INFO 4548 [egg-security] use methodnoallow middleware
+2018-07-03 10:16:29,133 INFO 4548 [egg-security] use noopen middleware
+2018-07-03 10:16:29,136 INFO 4548 [egg-security] use nosniff middleware
+2018-07-03 10:16:29,139 INFO 4548 [egg-security] use xssProtection middleware
+2018-07-03 10:16:29,142 INFO 4548 [egg-security] use xframe middleware
+2018-07-03 10:16:29,145 INFO 4548 [egg-security] use dta middleware
+2018-07-03 10:16:29,145 INFO 4548 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 10:16:29,275 INFO 4548 [egg-watcher:app] watcher start success
+2018-07-03 10:16:29,330 INFO 4548 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 10:13:34 GMT+0800 (中国标准时间)
+2018-07-03 10:16:37,093 INFO 8576 [egg:logger] init all loggers with options: {"dir":"D:\\机器人\\IronEgg\\logs\\IronEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IronEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-03 10:16:37,268 INFO 8576 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-03 10:16:37,268 INFO 8576 [egg-schedule]: register schedule D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-03 10:16:37,322 INFO 8576 [egg-mysql] connecting root@188.0.52.109:3306/robot
+2018-07-03 10:16:37,862 INFO 8576 [egg-static] starting static serve /public/ -> D:\机器人\IronEgg\app\public
+2018-07-03 10:16:37,875 INFO 8576 [egg-security] use methodnoallow middleware
+2018-07-03 10:16:37,880 INFO 8576 [egg-security] use noopen middleware
+2018-07-03 10:16:37,883 INFO 8576 [egg-security] use nosniff middleware
+2018-07-03 10:16:37,886 INFO 8576 [egg-security] use xssProtection middleware
+2018-07-03 10:16:37,888 INFO 8576 [egg-security] use xframe middleware
+2018-07-03 10:16:37,891 INFO 8576 [egg-security] use dta middleware
+2018-07-03 10:16:37,891 INFO 8576 [egg-security] compose 6 middlewares into one security middleware
+2018-07-03 10:16:38,355 INFO 8576 [egg-watcher:app] watcher start success
+2018-07-03 10:16:38,381 INFO 8576 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 03 2018 10:13:43 GMT+0800 (中国标准时间)

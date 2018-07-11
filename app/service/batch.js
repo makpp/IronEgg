@@ -22,18 +22,17 @@ class BatchService extends Service {
             if(flag){
     
                 await this.ctx.service.task.setAlarmProcessState(40, taskid);//40 工单任务进队列,开始执行
-                // var dataStr = "task:" + taskid;
                 var dataStr = {request:{taskid: taskid}};
                 
                 // 此处已写死Beanstalkd的地址
-                // var fivebeans = require('fivebeans-optional');
                 var host = "188.0.56.78";
                 var port = 11300;
                 var client = new fivebeans.client(host, port);
                 await client.connect();
                 await client.use('test_task',function(err, tubename) {});
-                // await client.use('test',function(err, tubename) {});
-                await client.put(1, 0, 5000, JSON.stringify(dataStr), function(err, jobid) {});
+                // console.log(JSON.stringify(dataStr));
+                var id = await client.put(1, 0, 5000, JSON.stringify(dataStr), function(err, jobid) {});
+                // console.log("put into beanstalks, id == " + id);
     
                 result = "正在执行task";
             }else{
