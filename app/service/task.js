@@ -22,13 +22,13 @@ class TaskService extends Service {
     }
 
     async setAlarmProcessState(state, taskid){
-        const row={
-            taskid : taskid,
-            state  : state,
-        }
-        const result = await this.app.mysql.update('Alarm_Process', row);
-        // var sql = "update Alarm_Process set state=? where taskid=?";
-        // var result = await this.app.mysql.query(sql, [state, taskid]);
+       // const row={
+       //     taskid : taskid,
+       //     state  : state,
+       // }
+       // const result = await this.app.mysql.update('Alarm_Process', row);
+         var sql = "update Alarm_Process set state=? where taskid=?";
+         var result = await this.app.mysql.query(sql, [state, taskid]);
         return result;
     }
 

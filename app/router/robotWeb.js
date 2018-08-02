@@ -18,14 +18,9 @@ module.exports = app =>{
     app.router.get('/ClientTaskState', app.controller.client.getCurrentAlarmProcess);
     // url http://127.0.0.1:7001/findEventByTime?startTime=123
     app.router.get('/findEventByTime', app.controller.client.getEventForTime);
-    // url http://127.0.0.1:7001/findEvent?eventId=123
-    app.router.get('/findEvent', app.controller.client.getEventInfo);
-    // url http://127.0.0.1:7001/findEventState?eventId=123
-    app.router.get('/findEventState', app.controller.client.getCurrentEventState);
     // url http://127.0.0.1:7001/HumanOperLog?fp=123
     app.router.get('/HumanOperLog', app.controller.client.loadHumanOperLogByfp);
     // url http://127.0.0.1:7001/HumanProcess?human_process=123&state=123&fp=123&process_log=123
     app.router.get('/HumanProcess', app.controller.client.updateAlarmProcess_HumanProcess);
-    // url http://127.0.0.1:7001/getEventServlet?startTime=123&event_type=123
-    app.router.get('/getEventServlet', app.controller.client.getCurrentEvents);
+   
 };

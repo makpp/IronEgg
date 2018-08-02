@@ -13,6 +13,15 @@ class returnUtils {
                 data : result};
     }
 
+    retOmcError(){
+        return {status : "0",
+                Msg    : 'ERROR'};
+    }
+
+    retOmcSuccess(){
+        return {status : "1",
+                Msg    : 'SUCCESS'};
+    }
 }
 
 module.exports = new returnUtils();

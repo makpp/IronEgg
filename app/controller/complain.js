@@ -39,6 +39,30 @@ class ComplainController extends Controller {
         }
 
     }
+
+    async setRelateEvent(){
+        const query = this.ctx.query;
+        if(query.eventId && query.issueId){
+          var eventId = query.eventId;
+          var issueId = query.issueId;
+          await this.ctx.service.complain.setRelateEvent(eventId, issueId);
+          this.ctx.body = {code : 0,
+                           msg  : "Set data successfully"};
+        }else{
+          this.ctx.bday = result.retError();
+        }
+      }
+    
+      async getRelateEvent(){
+        const query = this.ctx.query;
+        if(query.eventId){
+          var eventId = query.eventId;
+          var result = await this.ctx.service.complain.getRelateEvent(eventId);
+          this.ctx.body = retUtils.retSuccess(result);
+        }else{
+          this.ctx.body = result.retError();
+        }
+      }
 }
 
 module.exports = ComplainController;

@@ -102,6 +102,7 @@
         "D:\\机器人\\IronEgg\\node_modules\\egg-mysql\\config\\locales",
         "D:\\机器人\\IronEgg\\node_modules\\egg-cors\\config\\locales",
         "D:\\机器人\\IronEgg\\node_modules\\egg-validate\\config\\locales",
+        "D:\\机器人\\IronEgg\\node_modules\\egg-redis\\config\\locales",
         "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\locales",
         "D:\\机器人\\IronEgg\\config\\locales"
       ],
@@ -187,6 +188,17 @@
       "allowHeaders": "Content-Type,Content-Length, Authorization, Accept,X-Requested-With",
       "credentials": false
     },
+    "redis": {
+      "default": {},
+      "app": true,
+      "agent": false,
+      "client": {
+        "port": 9413,
+        "host": "188.0.52.109",
+        "password": "<String len: 0>",
+        "db": "4"
+      }
+    },
     "env": "local",
     "name": "IronEgg",
     "keys": "<String len: 3>",
@@ -203,14 +215,16 @@
         "dev": "egg-bin dev",
         "debug": "egg-bin debug",
         "start": "egg-scripts start --daemon --ignore-stderr",
-        "stop": "egg-scripts stop"
+        "stop": "egg-scripts stop --title=egg-server-IronEgg"
       },
       "author": "",
       "license": "ISC",
       "dependencies": {
+        "apidoc": "^0.17.6",
         "egg": "^2.7.1",
         "egg-cors": "^2.0.0",
         "egg-mysql": "^3.0.0",
+        "egg-redis": "^2.0.0",
         "egg-scripts": "^2.6.0",
         "egg-validate": "^1.0.0",
         "fivebeans-optional": "^1.4.0",
@@ -513,6 +527,17 @@
       "from": "D:\\机器人\\IronEgg\\config\\plugin.js",
       "path": "D:\\机器人\\IronEgg\\node_modules\\egg-validate",
       "version": "1.0.0"
+    },
+    "redis": {
+      "enable": true,
+      "package": "egg-redis",
+      "name": "redis",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\机器人\\IronEgg\\config\\plugin.js",
+      "path": "D:\\机器人\\IronEgg\\node_modules\\egg-redis",
+      "version": "2.0.0"
     }
   }
 }

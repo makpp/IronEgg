@@ -6,4 +6,6 @@ module.exports = app =>{
     // app.router.post('/complain', controller.complain.getCompalinByCitys);
     require('./router/robotWeb')(app);
     require('./router/robotComplain')(app);
+    require('./router/alarm')(app);
+    require('./router/omc')(app);
 };

@@ -42,3 +42,11 @@ exports.mysql = {
     credentials: false,
   };
 
+  exports.redis = {
+    client: {
+     port: 9413,          // Redis port
+     host: '188.0.52.109',   // Redis host
+     password: '',
+     db: '4',
+   },
+ }

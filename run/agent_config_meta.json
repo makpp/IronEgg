@@ -73,6 +73,17 @@
     "allowHeaders": "D:\\机器人\\IronEgg\\config\\config.default.js",
     "credentials": "D:\\机器人\\IronEgg\\config\\config.default.js"
   },
+  "redis": {
+    "client": {
+      "port": "D:\\机器人\\IronEgg\\config\\config.default.js",
+      "host": "D:\\机器人\\IronEgg\\config\\config.default.js",
+      "password": "D:\\机器人\\IronEgg\\config\\config.default.js",
+      "db": "D:\\机器人\\IronEgg\\config\\config.default.js"
+    },
+    "default": "D:\\机器人\\IronEgg\\node_modules\\egg-redis\\config\\config.default.js",
+    "app": "D:\\机器人\\IronEgg\\node_modules\\egg-redis\\config\\config.default.js",
+    "agent": "D:\\机器人\\IronEgg\\node_modules\\egg-redis\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "D:\\机器人\\IronEgg\\node_modules\\egg-session\\config\\config.default.js",
     "key": "D:\\机器人\\IronEgg\\node_modules\\egg-session\\config\\config.default.js",
@@ -173,9 +184,11 @@
     "author": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
     "license": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
+      "apidoc": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
       "egg": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
       "egg-mysql": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
+      "egg-redis": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
       "egg-validate": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",
       "fivebeans-optional": "D:\\机器人\\IronEgg\\node_modules\\egg\\config\\config.default.js",

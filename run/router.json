@@ -136,32 +136,6 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/findEvent",
-    "regexp": "/^\\/findEvent(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/findEventState",
-    "regexp": "/^\\/findEventState(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
     "path": "/HumanOperLog",
     "regexp": "/^\\/HumanOperLog(?:\\/(?=$))?$/",
     "stack": [
@@ -184,12 +158,128 @@
   {
     "name": null,
     "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/getComplainByCitys",
+    "regexp": "/^\\/getComplainByCitys(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],
     "paramNames": [],
-    "path": "/getEventServlet",
-    "regexp": "/^\\/getEventServlet(?:\\/(?=$))?$/",
+    "path": "/getComplainByCitysGet",
+    "regexp": "/^\\/getComplainByCitysGet(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/alarm/getAlarmByEqpLabel",
+    "regexp": "/^\\/alarm\\/getAlarmByEqpLabel(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/alarm/getAlarmByNeLabel",
+    "regexp": "/^\\/alarm\\/getAlarmByNeLabel(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/alarm/getAlarmByRoom",
+    "regexp": "/^\\/alarm\\/getAlarmByRoom(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/alarm/getAlarmBySite",
+    "regexp": "/^\\/alarm\\/getAlarmBySite(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/alarm/getChildAlarmByRootFp",
+    "regexp": "/^\\/alarm\\/getChildAlarmByRootFp(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/alarm/getAlarmRelateByChildFp",
+    "regexp": "/^\\/alarm\\/getAlarmRelateByChildFp(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/alarm/relateAlarm",
+    "regexp": "/^\\/alarm\\/relateAlarm(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/alarm/relateNewAlarm",
+    "regexp": "/^\\/alarm\\/relateNewAlarm(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -200,8 +290,47 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/getComplainByCitys",
-    "regexp": "/^\\/getComplainByCitys(?:\\/(?=$))?$/",
+    "path": "/omc/omcReceiver",
+    "regexp": "/^\\/omc\\/omcReceiver(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/omc/getOmcRecordByStarttime",
+    "regexp": "/^\\/omc\\/getOmcRecordByStarttime(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/omc/setRelateEvent",
+    "regexp": "/^\\/omc\\/setRelateEvent(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/omc/getRelateEvent",
+    "regexp": "/^\\/omc\\/getRelateEvent(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
