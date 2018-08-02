@@ -1,0 +1,48 @@
+2018-06-11 17:13:15,459 INFO 9620 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-12 00:00:00.000
+2018-06-11 17:13:15,461 INFO 9620 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-12 00:00:01.000
+2018-06-12 10:58:29,479 INFO 7244 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-13 00:00:00.000
+2018-06-12 10:58:29,483 INFO 7244 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-13 00:00:01.000
+2018-06-12 14:32:59,316 INFO 3204 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-13 00:00:00.000
+2018-06-12 14:32:59,320 INFO 3204 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-13 00:00:01.000
+2018-06-20 10:33:21,185 INFO 3180 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-21 00:00:00.000
+2018-06-20 10:33:21,188 INFO 3180 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-21 00:00:01.000
+2018-06-20 10:34:06,036 INFO 9704 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-21 00:00:00.000
+2018-06-20 10:34:06,038 INFO 9704 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-21 00:00:01.000
+2018-06-20 10:34:40,490 INFO 8160 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-21 00:00:00.000
+2018-06-20 10:34:40,492 INFO 8160 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-21 00:00:01.000
+2018-06-21 15:33:42,457 INFO 8684 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-22 00:00:00.000
+2018-06-21 15:33:42,459 INFO 8684 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-22 00:00:01.000
+2018-06-22 10:14:55,627 INFO 8816 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-23 00:00:00.000
+2018-06-22 10:14:55,629 INFO 8816 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-23 00:00:01.000
+2018-06-25 09:34:48,058 INFO 3924 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-26 00:00:00.000
+2018-06-25 09:34:48,061 INFO 3924 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-26 00:00:01.000
+2018-07-03 09:02:49,563 INFO 6480 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-04 00:00:00.000
+2018-07-03 09:02:49,568 INFO 6480 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-04 00:00:01.000
+2018-07-03 09:05:03,152 INFO 4672 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-04 00:00:00.000
+2018-07-03 09:05:03,154 INFO 4672 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-04 00:00:01.000
+2018-07-03 09:58:07,684 INFO 8452 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-04 00:00:00.000
+2018-07-03 09:58:07,686 INFO 8452 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-04 00:00:01.000
+2018-07-12 11:06:48,162 INFO 3520 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-13 00:00:00.000
+2018-07-12 11:06:48,164 INFO 3520 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-13 00:00:01.000
+2018-07-12 14:36:26,798 INFO 10100 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-13 00:00:00.000
+2018-07-12 14:36:26,801 INFO 10100 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-13 00:00:01.000
+2018-07-12 14:53:33,166 INFO 9828 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-13 00:00:00.000
+2018-07-12 14:53:33,168 INFO 9828 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-13 00:00:01.000
+2018-07-12 14:54:21,801 INFO 1276 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-13 00:00:00.000
+2018-07-12 14:54:21,803 INFO 1276 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-13 00:00:01.000
+2018-07-12 15:00:30,102 INFO 8868 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-13 00:00:00.000
+2018-07-12 15:00:30,106 INFO 8868 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-13 00:00:01.000
+2018-07-17 16:20:45,505 INFO 7836 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-18 00:00:00.000
+2018-07-17 16:20:45,507 INFO 7836 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-18 00:00:01.000
+2018-07-17 17:49:01,531 INFO 8668 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-18 00:00:00.000
+2018-07-17 17:49:01,533 INFO 8668 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-18 00:00:01.000
+2018-07-18 00:00:00,436 INFO 8668 [1531843200435141045388289415] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js triggered, send random by agent
+2018-07-18 00:00:00,447 INFO 8668 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-19 00:00:00.000
+2018-07-18 00:00:00,438 INFO 8360 [1531843200435141045388289415] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js task received by app
+2018-07-18 00:00:00,441 INFO 8360 [1531843200435141045388289415] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2018-07-18 00:00:00,461 INFO 8360 [1531843200435141045388289415] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 19ms
+2018-07-18 00:00:01,408 INFO 8360 [1531843201407141046360183440] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js task received by app
+2018-07-18 00:00:01,409 INFO 8360 [1531843201407141046360183440] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2018-07-18 00:00:01,441 INFO 8360 [1531843201407141046360183440] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 31ms
+2018-07-18 00:00:01,408 INFO 8668 [1531843201407141046360183440] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js triggered, send random by agent
+2018-07-18 00:00:01,419 INFO 8668 [Timer] D:\机器人\IronEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-19 00:00:01.000
