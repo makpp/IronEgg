@@ -44,7 +44,7 @@ module.exports = app =>{
      * ?eventId=123&omcId=123
      * @apiParam {int} eventId 关联的事件ID
      * @apiParam {int} omcId OMC翻译结果的ID
-     * @apiSuccess {JSON} code&msg 是否成功
+     * @apiSuccess {JSON} code,msg 是否成功
      * @apiSampleRequest http://188.0.59.193:7001/omc/setRelateEvent?
      */
     app.router.get('/omc/setRelateEvent', app.controller.omc.setRelateEvent);
@@ -55,9 +55,10 @@ module.exports = app =>{
      * @apiName getRelateEvent
      * @apiGroup omc
      * @apiParamExample {String} 请求参数示例
-     * ?eventId=123
+     * ?eventId=123&omcId=123
      * @apiParam {int} eventId 关联的事件ID
-     * @apiSuccess {JSON} code&msg 是否成功
+     * @apiParam {int} omcId OMC翻译结果的ID
+     * @apiSuccess {JSON} code,msg 是否成功
      * @apiSampleRequest http://188.0.59.193:7001/omc/getRelateEvent?
      */
     app.router.get('/omc/getRelateEvent', app.controller.omc.getRelateEvent);

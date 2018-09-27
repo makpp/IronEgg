@@ -14,14 +14,15 @@ class ClientController extends Controller {
         const query= this.ctx.query;
         // var startTime = query.startTime;
         var startTime = parseInt(query.startTime);
-        var result = await this.ctx.service.alarm.getCurrentAlarmTask(startTime);
+        var startTimeDate = new Date(startTime);
+        var result = await this.ctx.service.alarm.getCurrentAlarmTask(startTimeDate);
         this.ctx.body = result;
     }
 
     async loadClearAlarmByFilteridEventtime(){
         const query= this.ctx.query;
         var filterid = query.filterid;
-        var event_time = query.event_time;
+        var event_time = new Date(query.event_time);
         var result = await this.ctx.service.alarm.loadClearAlarm(filterid, event_time);
         this.ctx.body = result;
     }
@@ -36,7 +37,8 @@ class ClientController extends Controller {
     async getCurrentAlarmProcess(){
         const query= this.ctx.query;
         var startTime = parseInt(query.startTime);
-        var result = await this.ctx.service.alarm.loadAlarmProcess(startTime);
+        var startTimeDate = new Date(startTime);
+        var result = await this.ctx.service.alarm.loadAlarmProcess(startTimeDate);
         this.ctx.body = result;
     }
 
@@ -85,7 +87,7 @@ class ClientController extends Controller {
     //=========event==========//
     async getEventForTime() {
         const query = this.ctx.query;
-        var startTime = query.startTime;
+        var startTime = new Date(query.startTime);
         var result = await this.ctx.service.event.getEventForTime(startTime);
         this.ctx.body = result;
     }

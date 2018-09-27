@@ -3,7 +3,7 @@
 const Service = require('egg').Service;
 class ComplainService extends Service {
     async getComplainByCitys(cityList,factBeginTimeDate) {
-        var sql = "select * from Complain where IssueTime > ? and IssueTitle like";
+        var sql = "select * from Complain where IssueTime > ? and (IssueTitle like";
         for (var i = 0; i < cityList.length; i++) {
             if (i == 0) {
                 sql = sql + "'%" + cityList[i] + "%'";
@@ -11,12 +11,21 @@ class ComplainService extends Service {
                 sql = sql + " or IssueTitle like '%" + cityList[i] + "%'";
             }
         }
+        sql += ');';
         var result = await this.app.mysql.query(sql, [factBeginTimeDate]);
         for(var i=0; i<result.length; i++){
             var dateTime = result[i].IssueTime;
-            result[i].IssueTime = dateTime.getTime();
+            if(dateTime){
+                result[i].IssueTime = dateTime.getTime();
+            }else{
+                result[i].IssueTime = new Date('1982-01-01 00:00:00').getTime();
+            }
             dateTime = result[i].UpdateTime;
-            result[i].UpdateTime = dateTime.getTime();
+            if(dateTime){
+                result[i].UpdateTime = dateTime.getTime();
+            }else{
+                result[i].IssueTime = new Date('1982-01-01 00:00:00').getTime();
+            }            
         }
         return result;
     }
@@ -27,8 +36,10 @@ class ComplainService extends Service {
     }
 
     async getRelateEvent(eventId){
-        var result = await this.app.mysql.get('robot_kafka.relate_issue',{event_id:eventId});
-        return result;
+        //var result = await this.app.mysql.get('robot_kafka.relate_issue',{event_id:eventId});
+        var sql = 'select * from robot_kafka.relate_issue where event_id = ?';
+        var result = await this.app.mysql.query(sql,[eventId]);
+        return result[0];
     }
 }
 

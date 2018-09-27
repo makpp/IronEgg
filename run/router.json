@@ -187,8 +187,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/alarm/getAlarmByEqpLabel",
-    "regexp": "/^\\/alarm\\/getAlarmByEqpLabel(?:\\/(?=$))?$/",
+    "path": "/complain/setRelateEvent",
+    "regexp": "/^\\/complain\\/setRelateEvent(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -198,6 +198,30 @@
     "methods": [
       "HEAD",
       "GET"
+    ],
+    "paramNames": [],
+    "path": "/complain/getRelateEvent",
+    "regexp": "/^\\/complain\\/getRelateEvent(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/alarm/getAlarmByEqpLabel",
+    "regexp": "/^\\/alarm\\/getAlarmByEqpLabel(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
     ],
     "paramNames": [],
     "path": "/alarm/getAlarmByNeLabel",
@@ -209,8 +233,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/alarm/getAlarmByRoom",
@@ -222,8 +245,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/alarm/getAlarmBySite",
@@ -235,8 +257,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/alarm/getChildAlarmByRootFp",
@@ -248,8 +269,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/alarm/getAlarmRelateByChildFp",
@@ -261,8 +281,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/alarm/relateAlarm",
@@ -274,8 +293,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/alarm/relateNewAlarm",

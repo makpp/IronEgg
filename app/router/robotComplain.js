@@ -2,7 +2,19 @@
 
 module.exports = app =>{
     app.router.post('/getComplainByCitys', app.controller.complain.getComplainByCitys);
-	
+    
+    /**
+     * @api {get} /complain/getComplainByCitysGet getComplainByCitysGet
+     * @apiDescription 通过城市名查投诉
+     * @apiName getComplainByCitysGet
+     * @apiGroup complain
+     * @apiParamExample {String} 请求参数示例
+     * ?cityList=123&factBeginTimeDate=123
+     * @apiParam {Array} cityList 城市名
+     * @apiParam {Timestamp} factBeginTimeDate 投诉开始时间
+     * @apiSuccess {Arrary} complain 投诉信息
+     * @apiSampleRequest http://188.0.59.193:7001/complain/getComplainByCitysGet?
+     */
     app.router.get('/getComplainByCitysGet', app.controller.complain.getComplainByCitysGet);
     
     /**

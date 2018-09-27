@@ -9,7 +9,7 @@ const retUtils = require('./returnUtils');
 
 class AlarmController extends Controller {
   async getAlarmByEqpLabel() {
-    var query = this.ctx.request.body;    
+    const query= this.ctx.query;
     if(query.ne && query.group && query.event_time && query.timewin) {
         var ne = query.ne;
         var group = query.group;
@@ -42,7 +42,7 @@ class AlarmController extends Controller {
   };
   
   async getAlarmByNeLabel() {
-    const query= this.ctx.request.body;
+    const query= this.ctx.query;
     if(query.ne && query.group && query.event_time && query.timewin) {
         var ne = query.ne;
         var group = query.group;
@@ -75,7 +75,7 @@ class AlarmController extends Controller {
   };
 
   async getAlarmByRoom() {
-    const query= this.ctx.request.body;
+    const query= this.ctx.query;
     if(query.room && query.group && query.event_time && query.timewin) {
         var room = query.room;
         var group = query.group;
@@ -108,7 +108,7 @@ class AlarmController extends Controller {
   };
 
   async getAlarmBySite() {
-    const query= this.ctx.request.body;
+    const query= this.ctx.query;
     if(query.site && query.group && query.event_time && query.timewin) {
         var site = query.site;
         var group = query.group;
@@ -141,7 +141,7 @@ class AlarmController extends Controller {
   };
 
   async getChildAlarmByRootFp() {
-    const query= this.ctx.request.body;
+    const query= this.ctx.query;
     if(query.rootFp) {
       var rootFp = query.rootFp;
       var result = await this.ctx.service.getchildalarm.getChildAlarmByRootFp(rootFp);
@@ -154,7 +154,7 @@ class AlarmController extends Controller {
   };
 
   async getAlarmRelateByChildFp() {
-    const query= this.ctx.request.body;
+    const query= this.ctx.query;
     if(query.childFp) {
       var childFp = query.childFp;
       var result = await this.ctx.service.getalarmrelate.getAlarmRelateByChildFp(childFp);
@@ -167,7 +167,7 @@ class AlarmController extends Controller {
   };
 
   async relateAlarm() {
-    const query= this.ctx.request.body;
+    const query= this.ctx.query;
     if(query.childFp && query.rootFp && query.rule) {
       var childFp = query.childFp;
       var rootFp = query.rootFp;
@@ -182,7 +182,7 @@ class AlarmController extends Controller {
   };  
 
   async relateNewAlarm() {
-    const query= this.ctx.request.body;
+    const query= this.ctx.query;
     if(query.childFp && query.rule) {
       var childFp = query.childFp;
       var rule = query.rule;
@@ -195,6 +195,9 @@ class AlarmController extends Controller {
       this.ctx.body = retData;
     };
   };
+
+
+
 };
 
 module.exports = AlarmController;

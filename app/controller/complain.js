@@ -9,8 +9,10 @@ class ComplainController extends Controller {
         if (query.cityList && query.factBeginTime) {
             var cityListStr = query.cityList;
             var cityList = cityListStr.split(';');
-            var factBeginTime = query.factBeginTime;
-            var factBeginTimeDate = new Date(factBeginTime*1000);
+            var factBeginTime = query.factBeginTime*1;
+            // var factBeginTimeDate = new Date(factBeginTime*1000);
+            var factBeginTimeDate = new Date(factBeginTime);
+            // console.log(factBeginTimeDate);
             var result = await this.ctx.service.complain.getComplainByCitys(cityList,factBeginTimeDate);
             var retData = retUtils.retSuccess(result);
             this.ctx.body = retData;
@@ -27,8 +29,10 @@ class ComplainController extends Controller {
         if (query.cityList && query.factBeginTime) {
             var cityListStr = query.cityList;
             var cityList = cityListStr.split(';');
-            var factBeginTime = query.factBeginTime;
-            var factBeginTimeDate = new Date(factBeginTime*1000);
+            var factBeginTime = query.factBeginTime*1;
+            // var factBeginTimeDate = new Date(factBeginTime*1000);
+            var factBeginTimeDate = new Date(factBeginTime);
+            // console.log(factBeginTimeDate);
             var result = await this.ctx.service.complain.getComplainByCitys(cityList,factBeginTimeDate);
             var retData = retUtils.retSuccess(result);
             this.ctx.body = retData;

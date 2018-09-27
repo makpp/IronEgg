@@ -33,6 +33,7 @@ class BatchService extends Service {
                 // console.log(JSON.stringify(dataStr));
                 var id = await client.put(1, 0, 5000, JSON.stringify(dataStr), function(err, jobid) {});
                 // console.log("put into beanstalks, id == " + id);
+                client.destroy();
     
                 result = "正在执行task";
             }else{

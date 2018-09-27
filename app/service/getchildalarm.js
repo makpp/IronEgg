@@ -15,7 +15,7 @@ class GetchildalarmService extends Service {
         if(result.length) {
             return result;
         }else {
-            return null;
+            return [];
         };          
     };
 

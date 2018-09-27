@@ -20,8 +20,10 @@ class OmcController extends Controller {
   async getOmcRecordByStarttime(){
     const query = this.ctx.query;
     if(query.startTime){
-      var startTime = new Date(query.startTime*1000);
-      var result = await this.ctx.service.omc.getOmcRecordByStarttime(startTime);
+      // var startTime = new Date(query.startTime*1000);
+      var startTime = new Date(query.startTime*1);
+      var endTime = new Date(query.startTime*1+6*3600*1000);
+      var result = await this.ctx.service.omc.getOmcRecordByStarttime(startTime,endTime);
       this.ctx.body = retUtils.retSuccess(result);
     }else{
       this.ctx.body = result.retError();
